@@ -13,7 +13,6 @@ namespace Solution_C_Sharp
 
             string?input;
             int result = 0;
-
             Console.WriteLine("Input Number Integer: ");
             input = Console.ReadLine();
 
@@ -22,6 +21,33 @@ namespace Solution_C_Sharp
                 result += temp;
             }
             return result;
+        }
+
+
+        public static int Digit() {
+
+            int result =0;
+            string? input;
+            Console.WriteLine("Input Number Integer: ");
+            input = Console.ReadLine();
+
+            foreach (char x in input) {
+                result++;
+            }
+            return result;
+        }
+
+        public static void reverseCharracter ()
+        {
+            string input;
+            Console.WriteLine("Input Number Integer: ");
+            input = Console.ReadLine();
+
+            for (int i = input.Length-1; i >= 0;  i--)
+            {
+                Console.Write($"{input[i]} ");
+            }
+
         }
     }
 }

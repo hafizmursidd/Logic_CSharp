@@ -8,9 +8,19 @@ namespace Solution_C_Sharp
         {
             Console.WriteLine("Hello World!");
 
-            int result  = Solution.Summary();
+            //Nomor 1.
+            //int result  = Solution.Summary();
+            //Console.WriteLine($"Total Sum: {result}");
 
-            Console.WriteLine($"Total Sum: {result}");
+
+            //Nomor 2.
+            //int digit = Solution.Digit();
+            //Console.WriteLine($"Total digit yang diinput: {digit}");
+
+            //Nomor3
+            Solution.reverseCharracter();
+
+            //Nomor4
         }
     }
 }
