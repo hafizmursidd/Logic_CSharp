@@ -182,8 +182,6 @@ namespace Solution_C_Sharp
                 count++;
             }
             Console.WriteLine($"Total kata yang muncul: {count} dari text: {inputString}");
-
-
         }
 
     }
