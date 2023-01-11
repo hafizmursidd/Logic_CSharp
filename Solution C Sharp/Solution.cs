@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 using static System.Net.Mime.MediaTypeNames;
 using System.Runtime.InteropServices;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Solution_C_Sharp
 {
@@ -135,9 +136,54 @@ namespace Solution_C_Sharp
            int[] disticntArr = arr.Distinct().ToArray();
 
             Array.Sort(disticntArr);            
-            Console.Write($"Second Greatest {disticntArr[(disticntArr.Length-2)]}");
-            
+            Console.Write($"Second Greatest {disticntArr[(disticntArr.Length-2)]}");            
         
+        }
+
+        public static Boolean CheckKurawal() {
+
+            string input = "{{{}}";
+            int bracket = 0;
+            int bracket2 = 0;     
+            for (int i = 0; i < input.Length; i++)
+            {
+                if (input[i].Equals('{')){
+                    bracket++;
+                }
+                else
+                {
+                    bracket2++;
+                }
+            }
+            if (bracket == bracket2) 
+                return true;
+            else 
+                return false;
+        }
+
+        public static void JumlahString() {
+
+            string inputString;
+            string findString;
+            Console.Write("Enter String: ");
+            inputString = "111222112221111";
+            Console.Write("Find String: ");
+            findString = "11";
+            int count = 0;
+            int index = inputString.IndexOf(findString);
+
+            //Console.WriteLine("Length: "+findString.Length);
+            //Console.WriteLine("index: "+index);
+            //Console.WriteLine(index+findString.Length);
+
+            while (index != -1)
+            {
+                index = inputString.IndexOf(findString, index + findString.Length);
+                count++;
+            }
+            Console.WriteLine($"Total kata yang muncul: {count} dari text: {inputString}");
+
+
         }
 
     }

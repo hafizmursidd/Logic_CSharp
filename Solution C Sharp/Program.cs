@@ -32,8 +32,15 @@ namespace Solution_C_Sharp
             //number7
             //Solution.replaceMiddle();
 
-            //number 9 
-            Solution.SecondHigh();
+            //number9
+            Solution.JumlahString();
+
+            //number 10 
+            //Solution.SecondHigh();
+
+            //number 11
+            //Boolean result = Solution.CheckKurawal();
+            //Console.WriteLine(result);
         }
     }
 }
