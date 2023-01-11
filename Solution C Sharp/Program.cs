@@ -27,7 +27,13 @@ namespace Solution_C_Sharp
             //Solution.divisionNumber();
 
             //number6
-            Solution.PrimeNumber();
+            //Solution.PrimeNumber();
+
+            //number7
+            //Solution.replaceMiddle();
+
+            //number 9 
+            Solution.SecondHigh();
         }
     }
 }

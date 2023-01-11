@@ -101,5 +101,44 @@ namespace Solution_C_Sharp
             }
         }
 
+        public static void replaceMiddle() {
+            string x = "fahhfd  banfan  forfr";
+
+            string[] words = x.Split(' ');
+
+            for (int i = 0; i < words.Length; i++)
+            {
+                string word = words[i];
+
+                for (int j = 0; j < word.Length; j++)
+                {
+                if (j == 0 || j == word.Length - 1)
+                {
+                    Console.Write($"{word[i]}");
+                }
+                else Console.Write("*");
+                }
+                Console.Write(" ");
+            }
+
+        }
+
+        public static void SecondHigh() {
+            int[] arr = new int[5];
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.Write($"Enter {i+1}. number: ");
+                arr[i] = Convert.ToInt32( Console.ReadLine());
+            }
+
+           int[] disticntArr = arr.Distinct().ToArray();
+
+            Array.Sort(disticntArr);            
+            Console.Write($"Second Greatest {disticntArr[(disticntArr.Length-2)]}");
+            
+        
+        }
+
     }
 }
