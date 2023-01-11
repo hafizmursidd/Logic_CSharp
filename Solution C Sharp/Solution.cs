@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
+using static System.Net.Mime.MediaTypeNames;
+using System.Runtime.InteropServices;
 
 namespace Solution_C_Sharp
 {
@@ -49,5 +51,55 @@ namespace Solution_C_Sharp
             }
 
         }
+
+        public static void Highest() {  
+            int highest = 0;
+            int input = 0;
+
+            do {
+                Console.Write("Enter Integer [ Type 0 for exit ]: ");
+                input = Convert.ToInt32( Console.ReadLine());
+                if (input>highest) highest = input;
+            } while (input != 0);
+
+            Console.Write("Angka terbesar: "+highest);
+
+        }
+
+        public static void divisionNumber() {
+            int input = 0;
+
+            Console.Write("Enter numbers : ");
+            input = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Angka Pembagi: ");
+            for (int i = 1; i <= input/2; i++)
+            {
+                if (input % i == 0) {
+                    Console.Write($"{i} ");
+                }
+            }
+            }
+        public static void PrimeNumber() {
+            int input = 0;
+            Console.Write("Enter limit numbers : ");
+            input = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Prime Number: ");
+
+            for (int i=2; i<=input; i++) {
+                int faktor = 0;
+                for (int j = 1; j <= i; j++)
+                {
+                    if (i % j == 0) {
+                        faktor += 1;
+                    }
+                }
+                if (faktor == 2) {
+                    Console.Write($"{i} " );
+                }
+            }
+        }
+
     }
 }

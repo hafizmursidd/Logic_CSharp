@@ -18,9 +18,16 @@ namespace Solution_C_Sharp
             //Console.WriteLine($"Total digit yang diinput: {digit}");
 
             //Nomor3
-            Solution.reverseCharracter();
+            //Solution.reverseCharracter();
 
             //Nomor4
+            //Solution.Highest();
+
+            //Nomber5
+            //Solution.divisionNumber();
+
+            //number6
+            Solution.PrimeNumber();
         }
     }
 }
