@@ -1,0 +1,15 @@
+C:\Bootcamp\Batch18\Solution C#\Quiz Logic C#\Solution C Sharp\bin\Debug\net6.0\Solution C Sharp.exe
+C:\Bootcamp\Batch18\Solution C#\Quiz Logic C#\Solution C Sharp\bin\Debug\net6.0\Solution C Sharp.deps.json
+C:\Bootcamp\Batch18\Solution C#\Quiz Logic C#\Solution C Sharp\bin\Debug\net6.0\Solution C Sharp.runtimeconfig.json
+C:\Bootcamp\Batch18\Solution C#\Quiz Logic C#\Solution C Sharp\bin\Debug\net6.0\Solution C Sharp.dll
+C:\Bootcamp\Batch18\Solution C#\Quiz Logic C#\Solution C Sharp\bin\Debug\net6.0\Solution C Sharp.pdb
+C:\Bootcamp\Batch18\Solution C#\Quiz Logic C#\Solution C Sharp\obj\Debug\net6.0\Solution C Sharp.csproj.AssemblyReference.cache
+C:\Bootcamp\Batch18\Solution C#\Quiz Logic C#\Solution C Sharp\obj\Debug\net6.0\Solution C Sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp\Batch18\Solution C#\Quiz Logic C#\Solution C Sharp\obj\Debug\net6.0\Solution C Sharp.AssemblyInfoInputs.cache
+C:\Bootcamp\Batch18\Solution C#\Quiz Logic C#\Solution C Sharp\obj\Debug\net6.0\Solution C Sharp.AssemblyInfo.cs
+C:\Bootcamp\Batch18\Solution C#\Quiz Logic C#\Solution C Sharp\obj\Debug\net6.0\Solution C Sharp.csproj.CoreCompileInputs.cache
+C:\Bootcamp\Batch18\Solution C#\Quiz Logic C#\Solution C Sharp\obj\Debug\net6.0\Solution C Sharp.dll
+C:\Bootcamp\Batch18\Solution C#\Quiz Logic C#\Solution C Sharp\obj\Debug\net6.0\refint\Solution C Sharp.dll
+C:\Bootcamp\Batch18\Solution C#\Quiz Logic C#\Solution C Sharp\obj\Debug\net6.0\Solution C Sharp.pdb
+C:\Bootcamp\Batch18\Solution C#\Quiz Logic C#\Solution C Sharp\obj\Debug\net6.0\Solution C Sharp.genruntimeconfig.cache
+C:\Bootcamp\Batch18\Solution C#\Quiz Logic C#\Solution C Sharp\obj\Debug\net6.0\ref\Solution C Sharp.dll
