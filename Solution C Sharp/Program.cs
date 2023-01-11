@@ -8,7 +8,9 @@ namespace Solution_C_Sharp
         {
             Console.WriteLine("Hello World!");
 
-            TestHelloWord.hey();
+            int result  = Solution.Summary();
+
+            Console.WriteLine($"Total Sum: {result}");
         }
     }
 }
