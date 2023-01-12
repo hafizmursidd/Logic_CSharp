@@ -243,6 +243,20 @@ namespace Solution_C_Sharp
 
         }
 
+        public static void getSaturday() {
+            int getSaturday = (int)DayOfWeek.Saturday;
+            int getToday = (int)DateTime.Today.DayOfWeek;
+
+            //Console.WriteLine(getSaturday);
+            //Console.WriteLine(getToday); 
+
+            int res = (getSaturday - getToday + 7) % 7;
+
+            Console.WriteLine($"Hari Sabtu: { DateTime.Today.AddDays(res).ToShortDateString() }");
+            Console.WriteLine($"{res} hari lagi!");
+
+        }
+
 
 
     }

@@ -33,7 +33,7 @@ namespace Solution_C_Sharp
             //Solution.replaceMiddle();
 
             //8
-            Solution
+            Solution.getSaturday();
 
             //number9
             // Solution.JumlahString();
@@ -46,7 +46,7 @@ namespace Solution_C_Sharp
             //Console.WriteLine(result);
 
             //12
-            Solution.displayOutput();
+            //Solution.displayOutput();
         }
     }
 }
